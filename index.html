@@ -1,45 +1,44 @@
+<!DOCTYPE html>
 <html>
-  <head><title>Portofolio</title></head>
-	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="canonical" href="http://www.arediovani.com/" />
+    <title>Aredio Vani Portofolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Software Engineer">
+    <meta name="keyword" content="portfolio, javascript, developer, software, engineer, java">
+    <meta name="subject" content="Portofolio of Aredio Vani's projects">
+    <meta name="copyright" content="Aredio Vani">
+    <meta name="language" content="EN">
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="arediovani, aredio.vani@gmail.com">
+    <meta name="owner" content="Aredio Vani">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!--Open Graph   -->
+    <meta name="og:title" content="Aredio Vani Portofolio" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="http://www.arediovani.com" />
+    <meta name="og:image" content="TODO:add image" />
+    <meta name="og:site_name" content="AredioVani" />
+    <meta name="og:description" content="Software Engineer" />
+    <meta name="og:email" content="aredio.vani@gmail.com" />
+    <meta name="og:phone_number" content="+355697655490" />
+    
+
+    <!-- import -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
 
 <body>
-	<div id="player"></div>
+   <h1>Employment History</h1>
+   <h1>Education</h1>
+   <h1>Internships</h1>
+   <h1>Courses</h1>
 
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
+</body>
 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'dQw4w9WgXcQ',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      
-      
-    </script>
-
-	</body>
 </html>
