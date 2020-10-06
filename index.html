@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel="canonical" href="http://www.arediovani.com/" />
+    <link rel="canonical" href="https://www.arediovani.com/" />
     <title>Aredio Vani Portofolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description" content="Software Engineer">
@@ -20,7 +20,7 @@
     <!--Open Graph   -->
     <meta name="og:title" content="Aredio Vani Portofolio" />
     <meta name="og:type" content="website" />
-    <meta name="og:url" content="http://www.arediovani.com" />
+    <meta name="og:url" content="https://www.arediovani.com" />
     <meta name="og:image" content="TODO:add image" />
     <meta name="og:site_name" content="AredioVani" />
     <meta name="og:description" content="Software Engineer" />
@@ -29,16 +29,82 @@
     
 
     <!-- import -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="milligram.css">
     <script src='main.js'></script>
 </head>
+<body id="the-body">
+    <h1 style="color:red">IN DEVELOPMENT</h1>
+    <div class="container">
+    <h1>Aredio Vani</h1> 
+    <h3>Software Engineer</h3>
+    <h4>Scroll down to see my work <br><h6>... so far</h6></h4>
 
-<body>
-   <h1>Employment History</h1>
-   <h1>Education</h1>
-   <h1>Internships</h1>
-   <h1>Courses</h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item card">
+        <div class="row">
+          <div class="column">
+            <a href="http://ofcs.tk:3000">
+              CRM software for cable broadcasting company
+           
+            </a>
+          </div>
+          <div class="column column-50 ">   <img src="img/crm.png"></div>
+        </div>
+        <div class="column box">
+         
+        </div>
+      </div>
+      <div class="item card"><h4>2</h4></div>
+      <div class="item card"><h4>3</h4></div>
+      <div class="item card"><h4>4</h4></div>
+      <div class="item card"><h4>5</h4></div>
+  </div>
+<!-- 
+
+        <div class="row">
+      
+          <div class="column box">
+            <a href="http://albaniatravelvoyage.al">
+              Albania Travel & Voyage main website for client reservation
+              <img src="img/atv.jpg">
+            </a>
+          </div>
+          <div class="column box">
+            <a href="http://atvb2b.com">
+              B2B web application for Albania Travel & Voyage
+              <img src="img/atvb2b.jpg">
+            </a>
+          </div>
+          <div class="column box">
+            <a href="http://pushime.com.al">
+              Portali mattv.al
+              <img src="img/mattval.jpg">
+             
+            </a>
+          </div>
+        </div>
+      
+      </div> -->
 
 </body>
-
+<script src="jquery.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    stagePadding: 110,
+    loop:true,
+    margin:30,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        }
+      
+    }
+})
+</script>
 </html>
