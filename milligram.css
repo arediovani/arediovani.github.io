@@ -12,7 +12,7 @@ html {
 
 body {
   color: #161a1f;
-  font-family: 'Nanum Gothic Coding', monospace, 'Tahoma','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Space Mono', monospace, 'Tahoma','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: .01em;
@@ -292,6 +292,7 @@ input[type='radio'] {
   flex-direction: column;
   padding: 0;
   width: 100%;
+  height: inherit;
 }
 
 .row.row-no-padding {
